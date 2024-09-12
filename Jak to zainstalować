@@ -1,0 +1,12 @@
+Krótka instrukcja jak to gówno odpalić na malince z systemem Debian:
+1. Pobierz skrypt na pendraka lub bezpośrednio na komputer (najlepiej nie przez githuba bo trzeba wtedy instalować w huj gówna po drodze)
+2. Wklej go do katalogu Documents tak aby siedział w katalogu (/home/{nazwa twojej spierdolonej malinki}/Documents/nespifan.py)
+3. Odpal terminal bo w przeciwnym wypadku dostaniesz peirdolca zanim dokonasz modyfikacji
+4. wpisz: sudo nano nespifan.py
+5. Wpisz właściwy port GPIO w którym siedzi PWM od wiatraka
+6. poszukaj i zmień wartość showHud = 1
+7. zapisz (ctrl + S) (ctrl + X)
+8. w terminalu wpisz sudo python3 nespifan.py
+9. obserwuj co sie dzieje, wewntualnie odpal przeglądarką aby się rozgrzał
+10. jak nie ma reakcji po przekroczeniu 60 stopni to zamknij program (CTRL + C)
+11. wejdz w edycję pliku i zmień wartośc odpowiedzialną za częstotliwość PWM (tu działa tylko metoda prób i błędów zarkes od 50 do 500)
